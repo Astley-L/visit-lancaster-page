@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+#hero {
+    background-image: url("images/lancaster-cropped.png");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.header-text {
+    text-shadow: 0 0 1px black;
+    color: whitesmoke;
+    font-style: bold;
+}
+
+#header-title {
+    background: #e63946;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: auto 70px 15px 260px;
+
+}
+
+#header-subtitle {
+    background: #e63946;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 15px 70px auto 50px;
+}
+
+#attractions {
+    height: 500px;
+    background-color: #cae9ff;
+    padding-top: 200px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+.attractions-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #e63946;
+    margin-bottom: 10px;
+}
+
+
+
+.avatar {
+    width: 185px;
+    height: 185px;
+    box-shadow: -5px 5px;
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: #d0e9fc;
+    color: #2b2839;
+    border-bottom: 6px solid #e63946;
+    border-left: 6px solid #e63946;
+    border-radius: 5px;
+        }
+
+
+.info {
+    font-size: 100%;
+    width: 200px;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 80px 80px 80px;
+}
