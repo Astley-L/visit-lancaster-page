@@ -6,7 +6,7 @@ body {
 }
 
 #hero {
-    background-image: url("images/lancaster-cropped.png");
+    background-image: url("images/lancaster-cropped.PNG");
     background-size: cover;
     height: 700px;
     display: flex;
