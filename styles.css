@@ -6,7 +6,7 @@ body {
 }
 
 #hero {
-    background-image: url("images/lancaster-cropped.PNG");
+    background-image: url("images/lancaster-cropped.png");
     background-size: cover;
     height: 700px;
     display: flex;
@@ -38,10 +38,15 @@ body {
 #attractions {
     height: 500px;
     background-color: #cae9ff;
-    padding-top: 200px;
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.attraction-item {
+    width: 500px;
+    padding: 50px;
 }
 
 .attractions-image{
